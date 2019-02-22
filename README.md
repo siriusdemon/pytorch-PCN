@@ -1,5 +1,5 @@
 # PCN in Pytorch
-_**WARNING: This implement is in an almost finished state. See the [Results](#Results) section for more details.**_ 
+_**WARNING: This implementation is in an almost finished state. See the [Results](#Results) section for more details.**_ 
 
 [中文版](README-zh.md).
 
