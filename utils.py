@@ -37,8 +37,5 @@ def draw_face(img, face:Window):
     centerX = (x1 + x2) // 2
     centerY = (y1 + y2) // 2
     lst = (x1, y1), (x1, y2), (x2, y2), (x2, y1)
-    pointlist = []
-    for x, y in lst:
-        rx, ry = rotate_point(x, y, centerX, centerY, face.angle)
-        pointlist.append((rx, ry))
+    pointlist = [rotate_point(x, y, centerX, centerY, face.angle) for (x, y) in lst]
     draw_line(img, pointlist)
