@@ -33,24 +33,27 @@ python pcn.py path/to/image
 ## Results
 The original implement uses C++/caffe and I'm not sure whether this is the main reason that results in certain failed examples as follow:
 
-<img height=200 width=200 src="result/ret_5.jpg">
-<img height=200 width=200 src="result/ret_10.jpg">
+<img height=150 width=150 src="result/ret_5.jpg">
+<img height=150 width=150 src="result/ret_10.jpg">
 
 These are successful examples:
 
-<img height=200 width=200 src="result/ret_0.jpg">
-<img height=200 width=200 src="result/ret_2.jpg">
-<img height=200 width=200 src="result/ret_11.jpg">
-<img height=200 width=200 src="result/ret_25.jpg">
+<img src="result/ret_2.jpg">
+<img src="result/ret_11.jpg">
+<img src="result/ret_25.jpg">
 
-Contributions are welcome!
+More results can be found in "result" directory, or you can run the script to generate them.
 
+## Contributions
+I need help to solve the problem I mention in *Results* section. I mainly debug in [my own resp](https://github.com/siriusdemon/hackaway/tree/master/projects/pcn). If you are interest in fixing it, there are some test scripts you may find them helpful. I keep them in my own repo to avoid confusion.
 
-### Citing
+### License
+This code is distributed under the [BSD 2-Clause license](LICENSE).
+
+### Citing & Thanks
 @inproceedings{shiCVPR18pcn,
     Author = {Xuepeng Shi and Shiguang Shan and Meina Kan and Shuzhe Wu and Xilin Chen},
     Title = {Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks},
     Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     Year = {2018}
 }
-
