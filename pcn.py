@@ -335,7 +335,7 @@ if __name__ == '__main__':
     # usage settings
     import sys
     if len(sys.argv) != 2:
-        print("Usage: python3 pcn.py /path/to/img")
+        print("Usage: python3 pcn.py path/to/img")
         sys.exit()
     else:
         imgpath = sys.argv[1]
