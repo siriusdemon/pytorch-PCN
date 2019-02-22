@@ -54,9 +54,9 @@ I need help to solve the problem I mention in *Results* section. I mainly debug 
 This code is distributed under the [BSD 2-Clause license](LICENSE).
 
 ### Citing & Thanks
-@inproceedings{shiCVPR18pcn,
-    Author = {Xuepeng Shi and Shiguang Shan and Meina Kan and Shuzhe Wu and Xilin Chen},
-    Title = {Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks},
-    Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    Year = {2018}
-}
+    @inproceedings{shiCVPR18pcn,
+        Author = {Xuepeng Shi and Shiguang Shan and Meina Kan and Shuzhe Wu and Xilin Chen},
+        Title = {Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks},
+        Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+        Year = {2018}
+    }
