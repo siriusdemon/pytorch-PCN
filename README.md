@@ -8,9 +8,9 @@ This is a pytorch implemented version of the [original repo](https://github.com/
 ## Getting Started
 
 A separate Python environment is recommended.
-+ Python3.6 (other python3 version may be ok, but I haven't tested them)
++ Python3.5+ (Python3.5, Python3.6 are tested)
 + Pytorch == 1.0
-+ opencv4 (opencv3 is ok)
++ opencv4 (opencv3.4.5 is tested also)
 + numpy
 
 install dependences using pip or conda
@@ -33,8 +33,8 @@ python pcn.py path/to/image
 ## Results
 The original implement uses C++/caffe and I'm not sure whether this is the main reason that results in certain failed examples as follow:
 
-<img height=150 width=150 src="result/ret_5.jpg">
-<img height=150 width=150 src="result/ret_10.jpg">
+<img src="result/ret_5.jpg">
+<img src="result/ret_10.jpg">
 
 These are successful examples:
 
