@@ -1,6 +1,9 @@
 # PCN in Pytorch
 _**WARNING: This implement is in an almost finished state. See the [Results](#Results) section for more details.**_ 
 
+[中文版](README-zh.md).
+
+
 Progressive Calibration Networks (PCN) is an accurate rotation-invariant face detector running at real-time speed on CPU. This is an implementation for PCN.
 
 This is a pytorch implemented version of the [original repo](https://github.com/Jack-CV/FaceKit/tree/master/PCN)
