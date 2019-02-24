@@ -13,13 +13,13 @@
 + numpy
 
 使用`pip`来安装依赖。
-```
+```bash
 pip3 install numpy opencv-python
 pip3 install https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp36-cp36m-linux_x86_64.whl
 pip3 install torchvision (optional)
 ```
 或者使用`conda`
-```
+```bash
 conda install opencv numpy
 conda install pytorch-cpu torchvision-cpu -c pytorch
 ```
@@ -38,6 +38,10 @@ python pcn.py path/to/image
 <img src="result/ret_25.jpg">
 
 你可以在`result`文件夹下找到更多的例子，或者你也可以运行脚本来生成。
+
+仍然有一张图片检测失败，欢迎Pull request来修复这个问题。
+<img src="result/ret_20.jpg">
+
 
 ### License
 这份代码的许可证是[BSD 2-Clause license](LICENSE).

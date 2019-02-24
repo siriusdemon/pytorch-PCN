@@ -16,13 +16,13 @@ A separate Python environment is recommended.
 + numpy
 
 install dependences using `pip`
-```
+```bash
 pip3 install numpy opencv-python
 pip3 install https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp36-cp36m-linux_x86_64.whl
 pip3 install torchvision (optional)
 ```
 or install using `conda`
-```
+```bash
 conda install opencv numpy
 conda install pytorch-cpu torchvision-cpu -c pytorch
 ```
@@ -41,6 +41,9 @@ python pcn.py path/to/image
 <img src="result/ret_25.jpg">
 
 More results can be found in `result` directory, or you can run the script to generate them.
+
+There is still one image failed. Pull requests to fix it is welcome.
+<img src="result/ret_20.jpg">
 
 ### License
 This code is distributed under the [BSD 2-Clause license](LICENSE).
