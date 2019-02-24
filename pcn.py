@@ -32,14 +32,14 @@ class Window2:
 
 def preprocess_img(img, dim=None):
     if dim:
-        img = cv2.resize(img, (dim, dim), interpolation=cv2.INTER_NEAREST)
+        img = cv2.resize(img, (dim, dim))
     return img - np.array([104, 117, 123])
 
 def resize_img(img, scale:float):
     h, w = img.shape[:2]
     h_, w_ = int(h / scale), int(w / scale)
     img = img.astype(np.float32) # fix opencv type error
-    ret = cv2.resize(img, (w_, h_), interpolation=cv2.INTER_NEAREST)
+    ret = cv2.resize(img, (w_, h_))
     return ret
 
 def pad_img(img:np.array):
