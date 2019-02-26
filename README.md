@@ -45,6 +45,9 @@ More results can be found in `result` directory, or you can run the script to ge
 There is still one image failed. Pull requests to fix it is welcome.
 <img src="result/ret_20.jpg">
 
+### development repo
+For someone who is interested in other development details, refer to [development repo](https://github.com/siriusdemon/hackaway/tree/master/projects/pcn) of this repo. I decide not to provide some scripts here to avoid confusion.
+
 ### License
 This code is distributed under the [BSD 2-Clause license](LICENSE).
 
