@@ -29,6 +29,10 @@ conda install pytorch-cpu torchvision-cpu -c pytorch
 cd pcn
 python demo.py path/to/image 
 ```
+或者也可以使用摄像头！
+```bash
+python webcam.py
+```
 
 ## Install
 ```
