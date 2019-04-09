@@ -26,9 +26,14 @@ conda install pytorch-cpu torchvision-cpu -c pytorch
 
 ## Usage
 ```bash
-git clone https://github.com/siriusdemon/pytorch-PCN.git
-cd pytorch-PCN
-python pcn.py path/to/image 
+cd pcn
+python demo.py path/to/image 
+```
+
+## Install
+```
+cd pcn
+pip install .
 ```
 
 ## Results
@@ -42,8 +47,6 @@ python pcn.py path/to/image
 仍然有一张图片检测失败，欢迎Pull request来修复这个问题。
 <img src="result/ret_20.jpg">
 
-### development repo
-对于那些知道开发细节的同学，可以看看[开发仓库](https://github.com/siriusdemon/hackaway/tree/master/projects/pcn)。为了避免造成困惑，我就没有把一些脚本放在这里。
 
 ### License
 这份代码的许可证是[BSD 2-Clause license](LICENSE).
