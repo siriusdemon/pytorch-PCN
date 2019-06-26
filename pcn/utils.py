@@ -48,10 +48,12 @@ def crop_face(img, face:Window, crop_size=200):
     y2 = face.width + face.y - 1
     centerX = (x1 + x2) // 2
     centerY = (y1 + y2) // 2
+    lst = (x1, y1), (x1, y2), (x2, y2), (x2, y1)
+    pointlist = [rotate_point(x, y, centerX, centerY, face.angle) for x, y in lst]
     srcTriangle = np.array([
-        rotate_point(x1, y1, centerX, centerY, face.angle),
-        rotate_point(x1, y2, centerX, centerY, face.angle),
-        rotate_point(x2, y2, centerX, centerY, face.angle),
+        pointlist[0],
+        pointlist[1],
+        pointlist[2],
     ], dtype=np.float32)
     dstTriangle = np.array([
         (0, 0),
@@ -60,4 +62,4 @@ def crop_face(img, face:Window, crop_size=200):
     ], dtype=np.float32)
     rotMat = cv2.getAffineTransform(srcTriangle, dstTriangle)
     ret = cv2.warpAffine(img, rotMat, (crop_size, crop_size))
-    return ret
+    return ret, pointlist
