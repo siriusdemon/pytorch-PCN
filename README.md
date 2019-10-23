@@ -29,7 +29,7 @@ conda install pytorch-cpu torchvision-cpu -c pytorch
 
 ## Usage
 ```bash
-cd pcn
+cd pytorch-PCN
 python demo.py path/to/image 
 ```
 or use webcam demo
@@ -39,7 +39,7 @@ python webcam.py
 
 ## Install
 ```
-cd pcn && pip install .
+cd pytorch-PCN && pip install .
 ```
 
 ## Results
@@ -63,3 +63,6 @@ This code is distributed under the [BSD 2-Clause license](LICENSE).
         Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
         Year = {2018}
     }
+
+### Wishes
+For anyone who hear, see, think about or use this repo, I hope them gain temporary happiness and everlasting happiness
