@@ -26,7 +26,7 @@ conda install pytorch-cpu torchvision-cpu -c pytorch
 
 ## Usage
 ```bash
-cd pcn
+cd pytorch-PCN
 python demo.py path/to/image 
 ```
 或者也可以使用摄像头！
@@ -36,7 +36,7 @@ python webcam.py
 
 ## Install
 ```
-cd pcn
+cd pytorch-PCN
 pip install .
 ```
 
@@ -62,3 +62,6 @@ pip install .
         Booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
         Year = {2018}
     }
+    
+### Wishes
+对于听说过，见过，想过或者使用过这个仓库的人，我祝愿他们都得到暂时的快乐与永久不变的快乐。
